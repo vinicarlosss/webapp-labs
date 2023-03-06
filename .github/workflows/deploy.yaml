@@ -22,7 +22,7 @@ jobs:
       run: mvn clean install -DskipTests
 
 code-quality:
-  name: Qualidade de código
+  name: Qualidade de codigo
   needs: build
   runs-on: ubuntu-latest
 
